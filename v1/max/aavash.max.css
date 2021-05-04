@@ -1,6 +1,77 @@
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
-  margin: 0%;
-  padding: 0%
+    margin:0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* Base Button */
+.avBtn{
+    background: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 1.2px 1.2px 1.2px rgba(83, 83, 83, 0.63);
+
+
+    transition: all 0.30s ease-in-out;
+}
+
+/* Button Size */
+.avBtn-sm{
+    min-width: 45px;
+    min-height: 25px;
+}
+.avBtn-md{
+    min-width: 65px;
+    min-height: 30px;
+}
+.avBtn-lg{
+    min-width: 70px;
+    min-height: 35px;
+}
+
+/* =================> Primary Button */
+.avBtn-primary{
+    background-color: rgb(130, 130, 255);
+    color: #fafafa;
+}
+/* Primary Button-Hover */
+.avBtn-primary:hover{
+    background-color: rgb(96, 96, 216);
+    border: none;
+    
+}
+/* Primary Button <================== */
+
+
+/* ===============> Secondary Button  */
+.avBtn-success{
+    background-color: rgb(47, 230, 56);
+    color: #fafafa;
+}
+/* Secondar Button-Hover */
+.avBtn-success:hover{
+    background-color: rgb(28, 211, 37);
+    color: #fafafa;
+}
+/* Secondary Button <==================== */
+
+
+/* =====================> Danger Button */
+.avBtn-danger{
+    background-color: rgb(243, 39, 39);
+    color: #fafafa;
+}
+/* Danger Button-Hover */
+.avBtn-danger:hover{
+    background-color: rgb(223, 33, 33);
+    color: #fafafa;
+}
+/* Danger Button <====================== */
+
+
