@@ -75,3 +75,36 @@
 /* Danger Button <====================== */
 
 
+/* Navbar ===> */
+.avNav{
+    width: 100%;
+    background-color: #1687a7;
+    display: flex;
+}
+.avNav-item-list{
+    display: flex;
+}
+.avNav-item{
+    list-style: none;
+}
+.avNav-item, a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #f7f6e7;
+    padding: 10px 5px;
+    border-radius: 4px;
+    
+    transition: all .10s ease-in-out;
+}
+.active a{
+    font-weight: 400;
+    color: #ffe227;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+.avNav-item a:hover{
+    font-weight: 400;
+    color: #ffe227;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+/* <=== Navbar */
