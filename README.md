@@ -1,6 +1,6 @@
 # Aavash CSS
-### Web Page: https://shamimbinnur.github.io/aavash-CSS/webpage
-### CDN Link: https://shamimbinnur.github.io/aavash-CSS/cdn/v1/min/aavash.min.css
+#### Web Page: https://shamimbinnur.github.io/aavash-CSS/webpage
+#### CDN Link: https://shamimbinnur.github.io/aavash-CSS/cdn/v1/min/aavash.min.css
 
 
 #### How to use Avvash CSS cs in your project ?
